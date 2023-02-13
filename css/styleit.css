@@ -1,4 +1,11 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
 body {
-    background-color: green;
+    background: rgb(174,238,228);
+    background: radial-gradient(circle, rgba(174,238,228,1) 0%, rgba(148,187,233,1) 100%);
 }

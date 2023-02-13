@@ -6,6 +6,10 @@
 }
 
 body {
-    background: rgb(174,238,228);
-    background: radial-gradient(circle, rgba(174,238,228,1) 0%, rgba(17,38,63,1) 100%);
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
 }

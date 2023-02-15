@@ -22,7 +22,7 @@
         <label for="#">Firstname <input type="text" placeholder="Firstname" required></label> 
         <label for="#">Lastname <input type="text" placeholder="Lastname" required> </label> 
         <label for="#">Email <input type="email" placeholder="123@domain.com" required> </label> 
-        <label for="#">Password <input type="password"   pattern="[a-z0-5]{8}" placeholder="•••••••••••••••••••" required> </label> 
+        <label for="#">Password <input type="password" maxlength="16" pattern="[a-z0-5{8}]" placeholder="•••••••••••••••••••" required> </label> 
 
     </fieldset>
 
@@ -30,9 +30,9 @@
 
     <fieldset>
 
-        <label for="#"><input type="radio" name="" id=""></label>
-        <label for="#"><input type="radio" ></label>
-        <label for="#"><input type="checkbox" required></label>
+        <label for="#"><input type="radio" name="account-type" id=""> Personal Accouont</label>
+        <label for="#"><input type="radio" name="account-type" id="" > Business Account</label>
+        <label for="#"><input type="checkbox" required>I accept the <a href="#"> Terms and Conditions </a></label>
 
     </fieldset>
     <!-- Field Set 3-->

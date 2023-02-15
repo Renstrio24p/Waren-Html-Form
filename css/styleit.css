@@ -12,12 +12,45 @@ body {
     width: 100%;
     height: 100vh;
     margin: 0;
+    font-size: 16px;
+}
+
+
+/* Start of Global Styling*/
+h1, p {
+    margin: 1em auto;
+    text-align: center;
+}
+
+/*End of Global Styling */
+form {
+    box-shadow: none;
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
+    background: rgb(60,230,235);
+    background: linear-gradient(0deg, rgba(60,230,235,0.7021183473389356) 0%, rgba(226,239,239,1) 100%);
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    
+}
+
+fieldset {
+    border: none;
+    padding: 1rem 0;
+}
+
+fieldset:last-of-type{
+    border-bottom: none;
 }
 
 label {
     display: block;
     margin: 0.5rem 0;
 }
+
+
 
 textarea {
     color: black;
